@@ -1,4 +1,4 @@
-# Python-Time-tracking-project--Azubi
+#Time Tracking Program 
 
 Business Problem
 
@@ -12,7 +12,7 @@ Note that: Nana is paid $5 dollars per hour.
 
 If Nana works from 11AM to 1:30 PM on Monday 27th July, he would make 2.5 X 5 = $12.5 dollars.
 
-###Task
+#Task
 
 Write a program that would help Nana track his money.
 The program calculates the hours he spent on a task.
