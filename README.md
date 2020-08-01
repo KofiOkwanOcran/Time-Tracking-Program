@@ -1,20 +1,18 @@
-#Time-Tracking-Program 
+#Time-Tracking Program.
+Included in this repository is a pyton code which can help one keep track of one's income as one works on a task per a given hourly rate of work.
 
-Business Problem
+The code accepts as its input, the date and time for starting a task and the finishing date and time.
 
-Nana recently started a consulting business where he is paid based on the number of hours and minutes he works on client projects.
+For this work, the hourly rate was fixed at $5.00 hence there was no modification to allow the user to input that.
 
-He needs a time tracking program, where he enters the date and the time he started working on a task, and then the date and time when he finished a particular task.
+#How it works
+Once the program is launched, one would be required to enter the starting and finishing date and time in a given format.
+Per the how the code is written, the format is very critical.
+The format for the date: eg 31/07/2020 (The forward slash must be included)
+The time follows a 24hrs formart; So if the task ended at 1:00PM, the user would have to input 13:00.
 
-The program calculates the hours he spent on a task. It then calculates the amount of money Nana made tackling the task.
+#Output
+The all the details keyed in and the outputs, that's the starting and finishing date and time, the hours worked and incomed earned are all stored in a csv file named Income.
 
-Note that: Nana is paid $5 dollars per hour.
+This Project was worked on by Kofi Okwan Ocran, Kingsley Abru and Kenneth Dadzie.
 
-If Nana works from 11AM to 1:30 PM on Monday 27th July, he would make 2.5 X 5 = $12.5 dollars.
-
-#Task
-
-Write a program that would help Nana track his money.
-The program calculates the hours he spent on a task.
-It then calculates the amount of money Nana made tackling the task.
-Time entered and information from the program should be stored in a csv or excel file for future referencing.
