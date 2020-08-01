@@ -1,6 +1,6 @@
 # Time-Tracking Program
 
-Included in this repository is a pyton code which can help one keep track of one's income as one works on a task per a given hourly rate of work.
+Included in this repository is a python code which can help one keep track of one's income as one works on a task per a given hourly rate of work.
 
 The code accepts as its input, the date and time for starting a task and the finishing date and time.
 
