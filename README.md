@@ -16,7 +16,7 @@ The time follows a 24hrs formart; **So if the task ended at 1:00PM, the user wou
 
 
 ## Output
-The all the details keyed in and the outputs, that's the starting and finishing date and time, the hours worked and incomed earned are all stored in a csv file named **Income.**
+All the details keyed in and the outputs; that's the starting and finishing date and time, the hours worked and incomed earned are all stored in a csv file named **Income.**
 
 [Time-Tracking Program](https://github.com/KofiOkwanOcran/Time-Tracking-Program/blob/master/Time%20tracking%20project.py)
 
