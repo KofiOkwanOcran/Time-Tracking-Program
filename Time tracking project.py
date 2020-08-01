@@ -17,18 +17,22 @@ fhour, fmin = map(int, f_time.split(':'))
 start = datetime.datetime(syear, smonth, sday, shour, smin)
 end = datetime.datetime(fyear, fmonth, fday, fhour, fmin)
 
+
 # Calculate the time diff in hours. time diff = end - start
 def calc_hours():
     time_diff = end - start
     return time_diff.total_seconds() / 3600
 
+
 hours = calc_hours()
+
 
 # Calcuate the income. income = time diff * hourly rate [Hourly rate = $5]
 def calc_inc():
     inc = hours * 5
-    
+
     return inc
+
 
 income = calc_inc()
 
@@ -39,6 +43,7 @@ def main():
         writer = csv.writer(csv_file, delimiter=',')
         writer.writerow(details)
 
+
 if __name__ == "__main__":
     main()
 
@@ -46,5 +51,4 @@ print("The number of hours worked is {:.2f} hours\n".format(hours))
 print("The income earned is ${:.2f}\n".format(income))
 
 print('Thank you for using our app\n')
-
 input('Press the enter key to exit.')
